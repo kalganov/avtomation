@@ -7,4 +7,8 @@
 
 Для создания тестовых файлов в формате dot запустить test_graphs.py
 
-Для генерации минимизированного графа minimization.py <имя_файла>
+Для генерации минимизированного графа minimization.py \<имя_файла\>
+
+# Зависимости
+    sudo apt-get install graphviz
+    pip install graphviz
