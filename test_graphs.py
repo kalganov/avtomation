@@ -1,7 +1,4 @@
 from graphviz import Graph
-import os
-
-os.environ["PATH"] += os.pathsep + 'D:/graphviz-2.38/release/bin'
 
 graph = Graph('FSM', filename='fsm.gv', engine='sfdp')
 

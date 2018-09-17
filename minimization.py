@@ -2,9 +2,6 @@ import argparse
 from graphviz import Graph
 import pydot
 from collections import deque
-import os
-
-os.environ["PATH"] += os.pathsep + 'D:/graphviz-2.38/release/bin'
 
 parser = argparse.ArgumentParser()
 parser.add_argument("file", help="dot file with graph")
